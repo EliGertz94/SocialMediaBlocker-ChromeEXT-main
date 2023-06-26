@@ -276,17 +276,18 @@ switch (window.location.hostname) {
     document.head.innerHTML = generateSTYLES();
     document.body.innerHTML = generateHTML("SPOTIFY");
     break;
-    case "www.mako.co.il":
+    case "www.mako.co.il" ||"https://mobile.mako.co.il/":
     document.head.innerHTML = generateSTYLES();
-    document.body.innerHTML = generateHTML("SPOTIFY");
+    document.body.innerHTML = generateHTML("mako");
     break;
     case "www.walla.co.il":
     document.head.innerHTML = generateSTYLES();
-    document.body.innerHTML = generateHTML("SPOTIFY");
+    document.body.innerHTML = generateHTML("walla");
     break;
+ 
     case "www.ynet.co.il":
     document.head.innerHTML = generateSTYLES();
-    document.body.innerHTML = generateHTML("SPOTIFY");
+    document.body.innerHTML = generateHTML("ynet");
     break;
 
   }
