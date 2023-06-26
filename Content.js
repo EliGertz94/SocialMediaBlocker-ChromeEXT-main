@@ -276,7 +276,7 @@ switch (window.location.hostname) {
     document.head.innerHTML = generateSTYLES();
     document.body.innerHTML = generateHTML("SPOTIFY");
     break;
-    case "www.mako.co.il" ||"https://mobile.mako.co.il/":
+    case "www.mako.co.il" ||"mobile.mako.co.il":
     document.head.innerHTML = generateSTYLES();
     document.body.innerHTML = generateHTML("mako");
     break;
